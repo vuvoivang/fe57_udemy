@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .categories {
+  flex-grow: 1;
+}
+
+.header-left form {
+  flex-grow: 5;
+}
+
+.header-left form input {
+  border: none;
+  background-color: #f2f3f5;
+}
+
+.header-left form input:focus {
+  box-shadow: none;
+  background-color: white;
+}
+
+.header-left form input:focus + i {
+  background-color: white;
+}
+
+.header-left form i {
+  color: #ec5252;
+  padding: 10px;
+  background-color: #f2f3f5;
+  transition: 0.5s;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header-left form i:hover {
+  background-color: #ec5252;
+  color: white;
+}
+
+.header-left form .input-group {
+  border: 1px solid #000026;
+}
+
+.header-right ul li {
+  margin-right: 0.625rem;
+}
+
+.header-right ul li .btn-login {
+  border: 1px solid gray;
+}
+
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  flex-grow: 5;
+  background-color: #f2f3f5;
+}
+
+#carousel form input {
+  border: transparent;
+}
+
+#carousel form input:focus {
+  box-shadow: none;
+  background-color: white;
+}
+
+#carousel form i {
+  color: #ec5252;
+  padding: 11px;
+  background-color: white;
+  transition: 0.5s;
+  height: 100%;
+  cursor: pointer;
+}
+
+#carousel form i:hover {
+  background-color: #ec5252;
+  color: white;
+}
+
+#carousel form .input-group {
+  border: 1px solid #000026;
+}
+/*# sourceMappingURL=style.css.map */

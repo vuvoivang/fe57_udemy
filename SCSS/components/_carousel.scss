@@ -1,0 +1,17 @@
+// .carousel-top {
+//   .container {
+//     display: flex;
+//     justify-content: left;
+//     align-items: center;
+//   }
+// }
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  @include search();
+}
